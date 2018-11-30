@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CompetitionDetailBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yhi-Uo-6RT">
+                    <rect key="frame" x="16" y="9" width="164.5" height="43"/>
+                    <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="我要投票">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="ied-rl-OSs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVx-HR-daT">
+                    <rect key="frame" x="194.5" y="9" width="164.5" height="43"/>
+                    <color key="backgroundColor" red="0.99215686274509807" green="0.44705882352941173" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="我要参与">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="hln-Lq-ddB"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="CVx-HR-daT" secondAttribute="bottom" constant="9" id="CA0-Qb-BGi"/>
+                <constraint firstAttribute="bottom" secondItem="Yhi-Uo-6RT" secondAttribute="bottom" constant="9" id="Pfd-0Q-MZ2"/>
+                <constraint firstItem="CVx-HR-daT" firstAttribute="width" secondItem="Yhi-Uo-6RT" secondAttribute="width" id="Pgu-7H-A6Q"/>
+                <constraint firstAttribute="trailing" secondItem="CVx-HR-daT" secondAttribute="trailing" constant="16" id="T9b-2c-aQK"/>
+                <constraint firstItem="Yhi-Uo-6RT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="9" id="gYP-oq-11V"/>
+                <constraint firstItem="Yhi-Uo-6RT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="xDe-Ar-j6y"/>
+                <constraint firstItem="CVx-HR-daT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="9" id="yiS-OF-S9R"/>
+                <constraint firstItem="CVx-HR-daT" firstAttribute="leading" secondItem="Yhi-Uo-6RT" secondAttribute="trailing" constant="14" id="zCK-r6-1B6"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="30.5" y="272.5"/>
+        </view>
+    </objects>
+</document>

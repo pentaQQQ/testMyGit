@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DownloadDetailCell" rowHeight="109" id="KGk-i7-Jjw" customClass="DownloadDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="珠心算市场调查.pdf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfC-DI-hEi">
+                        <rect key="frame" x="16" y="26" width="143.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomePage_time" translatesAutoresizingMaskIntoConstraints="NO" id="pc6-vN-i5P">
+                        <rect key="frame" x="16" y="54.5" width="12" height="12"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-12-26 19:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esb-y5-StR">
+                        <rect key="frame" x="34" y="53.5" width="102.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eQh-wc-QW0">
+                        <rect key="frame" x="181.5" y="54.5" width="12" height="12"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大小:34.6M" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNV-8i-5gs">
+                        <rect key="frame" x="199.5" y="54" width="64.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pc6-vN-i5P" firstAttribute="top" secondItem="SfC-DI-hEi" secondAttribute="bottom" constant="9" id="9MD-zI-GMe"/>
+                    <constraint firstItem="eQh-wc-QW0" firstAttribute="width" secondItem="pc6-vN-i5P" secondAttribute="width" id="Ale-Hv-Js9"/>
+                    <constraint firstItem="pc6-vN-i5P" firstAttribute="leading" secondItem="SfC-DI-hEi" secondAttribute="leading" id="Bz9-lk-sJV"/>
+                    <constraint firstItem="esb-y5-StR" firstAttribute="centerY" secondItem="pc6-vN-i5P" secondAttribute="centerY" id="GAT-P5-5cg"/>
+                    <constraint firstItem="oNV-8i-5gs" firstAttribute="centerY" secondItem="pc6-vN-i5P" secondAttribute="centerY" id="IWY-oA-1iw"/>
+                    <constraint firstItem="SfC-DI-hEi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="KDH-fx-Leb"/>
+                    <constraint firstItem="eQh-wc-QW0" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Kld-70-bOc"/>
+                    <constraint firstItem="oNV-8i-5gs" firstAttribute="leading" secondItem="eQh-wc-QW0" secondAttribute="trailing" constant="6" id="UT4-mx-Eus"/>
+                    <constraint firstItem="eQh-wc-QW0" firstAttribute="centerY" secondItem="pc6-vN-i5P" secondAttribute="centerY" id="VNl-hB-MIH"/>
+                    <constraint firstItem="eQh-wc-QW0" firstAttribute="height" secondItem="pc6-vN-i5P" secondAttribute="height" id="hFa-4b-rRS"/>
+                    <constraint firstItem="SfC-DI-hEi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="26" id="jSo-Hm-zPC"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="pc6-vN-i5P" secondAttribute="bottom" constant="24" id="k01-cS-bm7"/>
+                    <constraint firstItem="esb-y5-StR" firstAttribute="leading" secondItem="pc6-vN-i5P" secondAttribute="trailing" constant="6" id="yYx-cJ-KDZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="sizeLabel" destination="oNV-8i-5gs" id="x6S-p7-XgM"/>
+                <outlet property="timeLabel" destination="esb-y5-StR" id="J0H-LB-6Cq"/>
+                <outlet property="titleLabel" destination="SfC-DI-hEi" id="KXL-U8-8Cl"/>
+            </connections>
+            <point key="canvasLocation" x="0.0" y="66.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HomePage_time" width="12" height="12"/>
+    </resources>
+</document>

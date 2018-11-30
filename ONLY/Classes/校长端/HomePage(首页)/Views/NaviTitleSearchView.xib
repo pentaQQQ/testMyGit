@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="PRW-P3-teg" userLabel="NaviTitleSearchView" customClass="NaviTitleSearchView">
+            <rect key="frame" x="0.0" y="0.0" width="316" height="39"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHY-4g-YK9">
+                    <rect key="frame" x="0.0" y="0.0" width="316" height="39"/>
+                    <color key="backgroundColor" red="0.023529411760000001" green="0.58431372550000005" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="titleEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="asd" image="产品众筹_Search"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnClicked:" destination="PRW-P3-teg" eventType="touchUpInside" id="Flt-3q-ZGy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dHY-4g-YK9" firstAttribute="leading" secondItem="PRW-P3-teg" secondAttribute="leading" id="69v-ZR-BF1"/>
+                <constraint firstAttribute="bottom" secondItem="dHY-4g-YK9" secondAttribute="bottom" id="9Xp-EL-piX"/>
+                <constraint firstAttribute="trailing" secondItem="dHY-4g-YK9" secondAttribute="trailing" id="D46-7U-AxQ"/>
+                <constraint firstItem="dHY-4g-YK9" firstAttribute="top" secondItem="PRW-P3-teg" secondAttribute="top" id="TnM-Te-ES0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="searchBtn" destination="dHY-4g-YK9" id="ya1-jj-ZFs"/>
+            </connections>
+            <point key="canvasLocation" x="-71" y="14"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="产品众筹_Search" width="20" height="20"/>
+    </resources>
+</document>

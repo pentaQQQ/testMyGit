@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConferenceTeacherDetailController">
+            <connections>
+                <outlet property="briefTV" destination="8Ug-UZ-kmb" id="vVZ-TA-kSn"/>
+                <outlet property="headerImageView" destination="AHP-wl-d7J" id="dCR-8T-Dx8"/>
+                <outlet property="nameLabel" destination="ubN-Dp-Nfs" id="g5q-rb-mnu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5I-v6-9wA">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" placeholderIntrinsicWidth="335" placeholderIntrinsicHeight="770" translatesAutoresizingMaskIntoConstraints="NO" id="NJZ-6h-2dt">
+                            <rect key="frame" x="16" y="60" width="343" height="934.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="张海东" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubN-Dp-Nfs">
+                                    <rect key="frame" x="144" y="66" width="56" height="22"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="AHP-wl-d7J">
+                                    <rect key="frame" x="126" y="-46" width="92" height="92"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="92" id="VNw-KR-X2F"/>
+                                        <constraint firstAttribute="width" constant="92" id="q1t-zE-Dfa"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                            <integer key="value" value="46"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u67-Ks-ZC5">
+                                    <rect key="frame" x="107" y="98" width="129.5" height="34.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="培训讲师" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6U-J3-y3o">
+                                            <rect key="frame" x="40" y="10" width="49.5" height="14.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SP8-Av-MXg">
+                                            <rect key="frame" x="0.0" y="17.5" width="30" height="1"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="IKP-du-W4C"/>
+                                                <constraint firstAttribute="height" constant="1" id="w0Y-1D-tYB"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rso-4J-dnl">
+                                            <rect key="frame" x="99.5" y="17.5" width="30" height="1"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="Jlw-do-SXI"/>
+                                                <constraint firstAttribute="height" constant="1" id="RUD-PW-Iw3"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="SP8-Av-MXg" firstAttribute="centerY" secondItem="u67-Ks-ZC5" secondAttribute="centerY" id="Afg-5Q-tLM"/>
+                                        <constraint firstItem="V6U-J3-y3o" firstAttribute="leading" secondItem="SP8-Av-MXg" secondAttribute="trailing" constant="10" id="F7j-Kk-sqU"/>
+                                        <constraint firstItem="V6U-J3-y3o" firstAttribute="top" secondItem="u67-Ks-ZC5" secondAttribute="top" constant="10" id="HfU-Qv-CVo"/>
+                                        <constraint firstAttribute="bottom" secondItem="V6U-J3-y3o" secondAttribute="bottom" constant="10" id="K7k-rG-0fV"/>
+                                        <constraint firstItem="V6U-J3-y3o" firstAttribute="centerY" secondItem="u67-Ks-ZC5" secondAttribute="centerY" id="aB6-MQ-73X"/>
+                                        <constraint firstItem="rso-4J-dnl" firstAttribute="centerY" secondItem="u67-Ks-ZC5" secondAttribute="centerY" id="eBq-xa-TN0"/>
+                                        <constraint firstAttribute="trailing" secondItem="rso-4J-dnl" secondAttribute="trailing" id="eSe-UT-0eV"/>
+                                        <constraint firstItem="SP8-Av-MXg" firstAttribute="leading" secondItem="u67-Ks-ZC5" secondAttribute="leading" id="f6N-WN-pFe"/>
+                                        <constraint firstItem="rso-4J-dnl" firstAttribute="leading" secondItem="V6U-J3-y3o" secondAttribute="trailing" constant="10" id="txU-l0-r2U"/>
+                                        <constraint firstItem="V6U-J3-y3o" firstAttribute="centerX" secondItem="u67-Ks-ZC5" secondAttribute="centerX" id="vt7-JM-jvg"/>
+                                    </constraints>
+                                </view>
+                                <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8Ug-UZ-kmb">
+                                    <rect key="frame" x="24" y="142.5" width="295" height="768"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <string key="text">男，1963年出生，教授、研究员，博士，华东师范大学兼职教授、博士生导师，全国应用型本科教育工作委员会副主任。 上海市第五届高校思想理论教育研究会副会长，上海产学合作教育协会常务理事兼副秘书长，中国高等教育学会第六届理事会常务理事，上海市职教协会副会长，上海市闵行区第五届人民代表大会代表等职。 先后荣获“上海市职业教育先进个人”、“上海职业教育杰出院长”、“上海市育才奖”等称号。 其长期潜心高等技术教育研究与实践研究，著有《理想与现实：技术本科教育发展论文集》 、《技术本科教育概论》、《四年制技术教育理论与实践探索》、《职教课程模式开发》、《当代高职高专教育课程研究》等书，并在《职业技术教育》、《教育发展研究》、《职教论坛》、《机械职业教育》、《思想 理论 教育》、《中国职业技术教育》、《高等职业教育》等10多种省(部)级以上期刊上发表学术论文五十余篇，主持过近十项省(部)级以上科研课题．并有多项研究成果获得上海市教育科学研究成果奖、上海市教学成果奖。 参考资料男，1963年出生，教授、研究员，博士，华东师范大学兼职教授、博士生导师，全国应用型本科教育工作委员会副主任。 上海市第五届高校思想理论教育研究会副会长，上海产学合作教育协会常务理事兼副秘书长，中国高等教育学会第六届理事会常务理事，上海市职教协会副会长，上海市闵行区第五届人民代表大会代表等职。 先后荣获“上海市职业教育先进个人”、“上海职业教育杰出院长”、“上海市育才奖”等称号。 其长期潜心高等技术教育研究与实践研究，著有《理想与现实：技术本科教育发展论文集》 、《技术本科教育概论》、《四年制技术教育理论与实践探索》、《职教课程模式开发》、《当代高职高专教育课程研究》等书，并在《职业技术教育》、《教育发展研究》、《职教论坛》、《机械职业教育》、《思想 理论 教育》、《中国职业技术教育》、《高等职业教育》等10多种省(部)级以上期刊上发表学术论文五十余篇，主持过近十项省(部)级以上科研课题．并有多项研究成果获得上海市教育科学研究成果奖、上海市教学成果奖。 参考资料</string>
+                                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="8Ug-UZ-kmb" secondAttribute="trailing" constant="24" id="49M-I2-cnA"/>
+                                <constraint firstItem="8Ug-UZ-kmb" firstAttribute="top" secondItem="u67-Ks-ZC5" secondAttribute="bottom" constant="10" id="5gk-U5-FII"/>
+                                <constraint firstItem="8Ug-UZ-kmb" firstAttribute="leading" secondItem="NJZ-6h-2dt" secondAttribute="leading" constant="24" id="Eju-ZT-I2N"/>
+                                <constraint firstItem="ubN-Dp-Nfs" firstAttribute="centerX" secondItem="NJZ-6h-2dt" secondAttribute="centerX" id="JSU-Pk-trf"/>
+                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="8Ug-UZ-kmb" secondAttribute="bottom" constant="24" id="OHH-PE-ITp"/>
+                                <constraint firstItem="u67-Ks-ZC5" firstAttribute="top" secondItem="ubN-Dp-Nfs" secondAttribute="bottom" constant="10" id="aNg-Ge-Gor"/>
+                                <constraint firstItem="ubN-Dp-Nfs" firstAttribute="top" secondItem="AHP-wl-d7J" secondAttribute="bottom" constant="20" id="e9P-Xu-u84"/>
+                                <constraint firstItem="AHP-wl-d7J" firstAttribute="centerY" secondItem="NJZ-6h-2dt" secondAttribute="top" id="esr-jv-OIf"/>
+                                <constraint firstItem="AHP-wl-d7J" firstAttribute="centerX" secondItem="NJZ-6h-2dt" secondAttribute="centerX" id="lsg-45-4n1"/>
+                                <constraint firstItem="u67-Ks-ZC5" firstAttribute="centerX" secondItem="NJZ-6h-2dt" secondAttribute="centerX" id="q0h-HS-05w"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="14"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="NJZ-6h-2dt" firstAttribute="leading" secondItem="c5I-v6-9wA" secondAttribute="leading" constant="16" id="3HH-Sw-9QX"/>
+                        <constraint firstAttribute="bottom" secondItem="NJZ-6h-2dt" secondAttribute="bottom" constant="60" id="5NI-vI-cLg"/>
+                        <constraint firstAttribute="trailing" secondItem="NJZ-6h-2dt" secondAttribute="trailing" constant="16" id="G93-h4-6bS"/>
+                        <constraint firstItem="NJZ-6h-2dt" firstAttribute="centerX" secondItem="c5I-v6-9wA" secondAttribute="centerX" id="KA9-Oc-f4C"/>
+                        <constraint firstItem="NJZ-6h-2dt" firstAttribute="top" secondItem="c5I-v6-9wA" secondAttribute="top" constant="60" id="bKk-y7-lX0"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="c5I-v6-9wA" secondAttribute="bottom" id="JYF-6w-eCA"/>
+                <constraint firstItem="c5I-v6-9wA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Kzl-UQ-5N4"/>
+                <constraint firstItem="c5I-v6-9wA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NNY-Lb-uig"/>
+                <constraint firstAttribute="trailing" secondItem="c5I-v6-9wA" secondAttribute="trailing" id="UwX-QW-jeV"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="76.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="3.png" width="70" height="70"/>
+    </resources>
+</document>

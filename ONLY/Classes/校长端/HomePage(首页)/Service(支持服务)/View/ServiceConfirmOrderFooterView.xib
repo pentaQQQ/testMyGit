@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="B9x-9A-beB" customClass="ServiceConfirmOrderFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="266"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hAc-ar-x4c">
+                    <rect key="frame" x="0.0" y="20" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="JwP-o7-ATk"/>
+                        <constraint firstAttribute="height" constant="15" id="g8R-bF-c0g"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.支持差旅费标准：往返车费、住宿费（线下自行沟通摊）" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGF-1A-JRG">
+                    <rect key="frame" x="21" y="20" width="371" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.住宿标准：安静、卫生、方便即可，按当地普通标准间标准即可" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7h-FP-dB3">
+                    <rect key="frame" x="21" y="54.5" width="371" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.每天工作时间不超过10小时，如贵校有特殊情况需要工作人员加班工作，请提前与工作人员沟通。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ure-GY-KNN">
+                    <rect key="frame" x="21" y="89" width="371" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.请贵校投资人自行负责分校财务工作。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXc-hx-bIO">
+                    <rect key="frame" x="21" y="138" width="371" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.未尽事宜或临时突发事宜再协商。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxM-xV-JxV">
+                    <rect key="frame" x="21" y="172.5" width="371" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6.对于支持中心外派主管，贵校有监督权，在工作中欧有不合适的地方，请于总部联系协商解决。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4v2-TL-s8p">
+                    <rect key="frame" x="21" y="207" width="371" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ure-GY-KNN" secondAttribute="trailing" id="3mY-aS-7V9"/>
+                <constraint firstItem="ure-GY-KNN" firstAttribute="leading" secondItem="FGF-1A-JRG" secondAttribute="leading" id="DZf-Et-hjK"/>
+                <constraint firstItem="FGF-1A-JRG" firstAttribute="leading" secondItem="hAc-ar-x4c" secondAttribute="trailing" constant="6" id="DfB-70-WGq"/>
+                <constraint firstAttribute="trailing" secondItem="FGF-1A-JRG" secondAttribute="trailing" id="K3m-io-ZXc"/>
+                <constraint firstItem="hAc-ar-x4c" firstAttribute="top" secondItem="B9x-9A-beB" secondAttribute="top" constant="20" id="NhD-D4-kg4"/>
+                <constraint firstAttribute="trailing" secondItem="CXc-hx-bIO" secondAttribute="trailing" id="P9c-ub-h6g"/>
+                <constraint firstItem="V7h-FP-dB3" firstAttribute="top" secondItem="FGF-1A-JRG" secondAttribute="bottom" constant="20" id="TTP-18-azI"/>
+                <constraint firstItem="CXc-hx-bIO" firstAttribute="leading" secondItem="FGF-1A-JRG" secondAttribute="leading" id="TgG-BB-YAO"/>
+                <constraint firstItem="V7h-FP-dB3" firstAttribute="leading" secondItem="FGF-1A-JRG" secondAttribute="leading" id="TiT-UY-SEP"/>
+                <constraint firstItem="4v2-TL-s8p" firstAttribute="top" secondItem="ZxM-xV-JxV" secondAttribute="bottom" constant="20" id="XL3-lq-mej"/>
+                <constraint firstItem="FGF-1A-JRG" firstAttribute="top" secondItem="hAc-ar-x4c" secondAttribute="top" id="XlL-bC-C2Z"/>
+                <constraint firstItem="hAc-ar-x4c" firstAttribute="leading" secondItem="B9x-9A-beB" secondAttribute="leading" id="YQf-mK-qfz"/>
+                <constraint firstAttribute="trailing" secondItem="4v2-TL-s8p" secondAttribute="trailing" id="a8T-Dl-UXJ"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4v2-TL-s8p" secondAttribute="bottom" constant="20" id="aAP-jT-O2x"/>
+                <constraint firstAttribute="trailing" secondItem="V7h-FP-dB3" secondAttribute="trailing" id="buS-Di-IaJ"/>
+                <constraint firstItem="CXc-hx-bIO" firstAttribute="top" secondItem="ure-GY-KNN" secondAttribute="bottom" constant="20" id="efB-nC-d3d"/>
+                <constraint firstItem="ZxM-xV-JxV" firstAttribute="top" secondItem="CXc-hx-bIO" secondAttribute="bottom" constant="20" id="fRr-9j-0z9"/>
+                <constraint firstItem="ure-GY-KNN" firstAttribute="top" secondItem="V7h-FP-dB3" secondAttribute="bottom" constant="20" id="gf8-aU-Kpt"/>
+                <constraint firstAttribute="trailing" secondItem="ZxM-xV-JxV" secondAttribute="trailing" id="heR-zP-z0p"/>
+                <constraint firstItem="ZxM-xV-JxV" firstAttribute="leading" secondItem="FGF-1A-JRG" secondAttribute="leading" id="io3-bZ-Xfs"/>
+                <constraint firstItem="4v2-TL-s8p" firstAttribute="leading" secondItem="FGF-1A-JRG" secondAttribute="leading" id="plR-8b-NhU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="10" y="115"/>
+        </view>
+    </objects>
+</document>

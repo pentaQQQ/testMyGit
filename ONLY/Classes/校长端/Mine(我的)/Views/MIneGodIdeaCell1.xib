@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MIneGodIdeaCell1" rowHeight="174" id="Df3-8S-evc" customClass="MIneGodIdeaCell1">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Df3-8S-evc" id="rSp-Ja-DHa">
+                <frame key="frameInset" width="375" height="174"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portrait.png" translatesAutoresizingMaskIntoConstraints="NO" id="xsA-q7-TRX">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="hZG-m0-JKj"/>
+                            <constraint firstAttribute="width" constant="31" id="w40-Nc-p9y"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lily Anna" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m54-gV-FGf">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="rb7-a3-zqN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-12-15 11:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlK-HL-OeA">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="5HA-Mz-Ctj"/>
+                            <constraint firstAttribute="width" constant="142" id="9aw-Et-DXU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="起来榨橙汁突发奇想能不能有一款能够从任何物体上都可以直接在任何..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0S-UO-9NN">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="2hF-mL-abx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="能够从任何物体上采色的笔" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5p-G3-2eP">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="HBh-0R-EpY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="图层59" translatesAutoresizingMaskIntoConstraints="NO" id="aPD-2b-ZIt">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="125" id="HkX-es-FQT"/>
+                            <constraint firstAttribute="height" constant="125" id="myw-Ro-B1F"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.png" translatesAutoresizingMaskIntoConstraints="NO" id="m64-c8-SiW">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="777-bH-IbF"/>
+                            <constraint firstAttribute="width" constant="13" id="Bsm-xi-Mwi"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aPD-2b-ZIt" firstAttribute="top" secondItem="rSp-Ja-DHa" secondAttribute="top" constant="24" id="1zR-iR-dgv"/>
+                    <constraint firstItem="aPD-2b-ZIt" firstAttribute="leading" secondItem="m54-gV-FGf" secondAttribute="trailing" constant="15" id="3BD-qR-hio"/>
+                    <constraint firstItem="m5p-G3-2eP" firstAttribute="top" secondItem="xsA-q7-TRX" secondAttribute="bottom" constant="10" id="6fO-3n-oqK"/>
+                    <constraint firstItem="xsA-q7-TRX" firstAttribute="top" secondItem="rSp-Ja-DHa" secondAttribute="top" constant="24" id="CiU-Gv-j56"/>
+                    <constraint firstItem="aPD-2b-ZIt" firstAttribute="leading" secondItem="n0S-UO-9NN" secondAttribute="trailing" constant="15" id="DSi-L2-uhu"/>
+                    <constraint firstItem="m54-gV-FGf" firstAttribute="leading" secondItem="xsA-q7-TRX" secondAttribute="trailing" constant="12" id="F09-7U-iK3"/>
+                    <constraint firstItem="m5p-G3-2eP" firstAttribute="leading" secondItem="rSp-Ja-DHa" secondAttribute="leading" constant="15" id="FZU-zq-wGa"/>
+                    <constraint firstItem="m64-c8-SiW" firstAttribute="top" secondItem="n0S-UO-9NN" secondAttribute="bottom" constant="16" id="QnA-cg-gyy"/>
+                    <constraint firstAttribute="trailing" secondItem="aPD-2b-ZIt" secondAttribute="trailing" constant="16" id="U7w-FG-nkJ"/>
+                    <constraint firstItem="aPD-2b-ZIt" firstAttribute="leading" secondItem="m5p-G3-2eP" secondAttribute="trailing" constant="15" id="UxL-WQ-JBv"/>
+                    <constraint firstItem="AlK-HL-OeA" firstAttribute="leading" secondItem="m64-c8-SiW" secondAttribute="trailing" constant="6" id="Vms-IJ-1dW"/>
+                    <constraint firstItem="xsA-q7-TRX" firstAttribute="leading" secondItem="rSp-Ja-DHa" secondAttribute="leading" constant="15" id="XdT-Qx-ieC"/>
+                    <constraint firstItem="n0S-UO-9NN" firstAttribute="top" secondItem="m5p-G3-2eP" secondAttribute="bottom" constant="11" id="kja-kv-sIb"/>
+                    <constraint firstItem="AlK-HL-OeA" firstAttribute="top" secondItem="n0S-UO-9NN" secondAttribute="bottom" constant="16" id="pkT-CW-pGz"/>
+                    <constraint firstItem="m64-c8-SiW" firstAttribute="leading" secondItem="rSp-Ja-DHa" secondAttribute="leading" constant="15" id="tX7-6E-pOR"/>
+                    <constraint firstItem="n0S-UO-9NN" firstAttribute="leading" secondItem="rSp-Ja-DHa" secondAttribute="leading" constant="15" id="uGb-mp-Ebf"/>
+                    <constraint firstItem="m54-gV-FGf" firstAttribute="top" secondItem="rSp-Ja-DHa" secondAttribute="top" constant="35" id="xFr-Do-UjS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detail" destination="n0S-UO-9NN" id="Oax-ba-D3A"/>
+                <outlet property="headImg" destination="xsA-q7-TRX" id="hbS-eg-wM2"/>
+                <outlet property="img" destination="aPD-2b-ZIt" id="fsq-RA-KSe"/>
+                <outlet property="name" destination="m54-gV-FGf" id="xP0-5Z-Wiz"/>
+                <outlet property="time" destination="AlK-HL-OeA" id="Hd8-PF-aKA"/>
+                <outlet property="title" destination="m5p-G3-2eP" id="c7t-S8-GR9"/>
+            </connections>
+            <point key="canvasLocation" x="-700" y="-239"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="clock.png" width="12" height="12"/>
+        <image name="portrait.png" width="30" height="30"/>
+        <image name="图层59" width="260" height="146"/>
+    </resources>
+</document>

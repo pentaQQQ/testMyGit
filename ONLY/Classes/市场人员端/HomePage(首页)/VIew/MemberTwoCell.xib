@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MemberTwoCell" rowHeight="47" id="8od-6I-4Gk" customClass="MemberTwoCell">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="47"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8od-6I-4Gk" id="KKc-ro-h2w">
+                <frame key="frameInset" width="385" height="46"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="联系电话" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQV-8E-OZ3">
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="原来你也在这里" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCZ-Sh-Taz">
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZv-wa-iFj">
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="913-cj-Tss"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="tCZ-Sh-Taz" secondAttribute="trailing" constant="13" id="9Al-6Z-vfG"/>
+                    <constraint firstItem="tCZ-Sh-Taz" firstAttribute="top" secondItem="KKc-ro-h2w" secondAttribute="top" constant="15" id="Lb4-ep-KIP"/>
+                    <constraint firstAttribute="bottom" secondItem="bZv-wa-iFj" secondAttribute="bottom" id="UTf-jp-coI"/>
+                    <constraint firstItem="iQV-8E-OZ3" firstAttribute="leading" secondItem="KKc-ro-h2w" secondAttribute="leading" constant="18" id="XQx-F5-NrR"/>
+                    <constraint firstAttribute="trailing" secondItem="bZv-wa-iFj" secondAttribute="trailing" id="ZCT-K1-Fcg"/>
+                    <constraint firstItem="bZv-wa-iFj" firstAttribute="top" relation="greaterThanOrEqual" secondItem="tCZ-Sh-Taz" secondAttribute="bottom" constant="5" id="ZYb-9T-Fqh"/>
+                    <constraint firstItem="iQV-8E-OZ3" firstAttribute="top" secondItem="KKc-ro-h2w" secondAttribute="top" constant="15" id="dTr-QV-1V8"/>
+                    <constraint firstItem="tCZ-Sh-Taz" firstAttribute="leading" secondItem="KKc-ro-h2w" secondAttribute="leadingMargin" constant="90" id="kSj-2R-Qwg"/>
+                    <constraint firstItem="tCZ-Sh-Taz" firstAttribute="leading" secondItem="KKc-ro-h2w" secondAttribute="leadingMargin" constant="90" id="qol-pE-Sy7"/>
+                    <constraint firstItem="bZv-wa-iFj" firstAttribute="leading" secondItem="KKc-ro-h2w" secondAttribute="leading" id="w30-l0-sSZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="order_detail" destination="tCZ-Sh-Taz" id="VY3-NF-FtO"/>
+                <outlet property="order_title" destination="iQV-8E-OZ3" id="kyr-JK-mw9"/>
+            </connections>
+            <point key="canvasLocation" x="-524" y="152"/>
+        </tableViewCell>
+    </objects>
+</document>

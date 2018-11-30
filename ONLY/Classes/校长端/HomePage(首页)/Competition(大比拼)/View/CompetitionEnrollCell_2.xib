@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CompetitionEnrollCell_2" rowHeight="219" id="KGk-i7-Jjw" customClass="CompetitionEnrollCell_2">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="218"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上传照片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1B-LO-a0s">
+                        <rect key="frame" x="16" y="24" width="58" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="上传照片" translatesAutoresizingMaskIntoConstraints="NO" id="eZ7-wO-efC">
+                        <rect key="frame" x="18" y="51" width="106.5" height="106.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="eZ7-wO-efC" secondAttribute="height" multiplier="1:1" id="QxG-EX-iHD"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="上传照片" translatesAutoresizingMaskIntoConstraints="NO" id="qku-fU-7ue">
+                        <rect key="frame" x="134.5" y="51" width="106" height="106.5"/>
+                    </imageView>
+                    <button hidden="YES" opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqR-G9-Bcg">
+                        <rect key="frame" x="225.5" y="51" width="15" height="22"/>
+                        <state key="normal" image="delete_image.png"/>
+                        <connections>
+                            <action selector="btnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="aDv-YP-RGg"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="上传照片" translatesAutoresizingMaskIntoConstraints="NO" id="qWU-qx-syN">
+                        <rect key="frame" x="250.5" y="51" width="106.5" height="106.5"/>
+                    </imageView>
+                    <button hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfO-tb-9cX">
+                        <rect key="frame" x="342" y="51" width="15" height="22"/>
+                        <state key="normal" image="delete_image.png"/>
+                        <connections>
+                            <action selector="btnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="s17-Oq-Qdi"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="（最多3张）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8x-kh-jQs">
+                        <rect key="frame" x="84" y="24" width="81" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aa-03-Mrs">
+                        <rect key="frame" x="109.5" y="51" width="15" height="22"/>
+                        <state key="normal" image="delete_image.png"/>
+                        <connections>
+                            <action selector="btnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uiC-4e-qsb"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qku-fU-7ue" firstAttribute="width" secondItem="eZ7-wO-efC" secondAttribute="width" id="07Z-re-nek"/>
+                    <constraint firstItem="qWU-qx-syN" firstAttribute="trailing" secondItem="BfO-tb-9cX" secondAttribute="trailing" id="5i2-ad-gHZ"/>
+                    <constraint firstItem="qku-fU-7ue" firstAttribute="height" secondItem="eZ7-wO-efC" secondAttribute="height" id="6Hc-bf-mw9"/>
+                    <constraint firstItem="qWU-qx-syN" firstAttribute="height" secondItem="eZ7-wO-efC" secondAttribute="height" id="6jJ-Zu-QQu"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="eZ7-wO-efC" secondAttribute="bottom" constant="24" id="9yI-JT-Z9H"/>
+                    <constraint firstItem="qku-fU-7ue" firstAttribute="top" secondItem="vqR-G9-Bcg" secondAttribute="top" id="AAn-g6-f3c"/>
+                    <constraint firstItem="eZ7-wO-efC" firstAttribute="top" secondItem="G1B-LO-a0s" secondAttribute="bottom" constant="10" id="Eau-Qt-KEh"/>
+                    <constraint firstItem="I8x-kh-jQs" firstAttribute="centerY" secondItem="G1B-LO-a0s" secondAttribute="centerY" id="Hlm-tb-ddn"/>
+                    <constraint firstItem="eZ7-wO-efC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="M69-XN-hz0"/>
+                    <constraint firstItem="I8x-kh-jQs" firstAttribute="leading" secondItem="G1B-LO-a0s" secondAttribute="trailing" constant="10" id="NJQ-a2-dj0"/>
+                    <constraint firstItem="qWU-qx-syN" firstAttribute="top" secondItem="BfO-tb-9cX" secondAttribute="top" id="TZN-Cw-Rxm"/>
+                    <constraint firstItem="qWU-qx-syN" firstAttribute="top" secondItem="eZ7-wO-efC" secondAttribute="top" id="Xm6-3z-446"/>
+                    <constraint firstItem="qku-fU-7ue" firstAttribute="trailing" secondItem="vqR-G9-Bcg" secondAttribute="trailing" id="Xqh-p2-c0e"/>
+                    <constraint firstItem="G1B-LO-a0s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="fez-Fo-RTW"/>
+                    <constraint firstItem="2aa-03-Mrs" firstAttribute="trailing" secondItem="eZ7-wO-efC" secondAttribute="trailing" id="ilk-M9-WGC"/>
+                    <constraint firstItem="qku-fU-7ue" firstAttribute="leading" secondItem="eZ7-wO-efC" secondAttribute="trailing" constant="10" id="keJ-HQ-uan"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qWU-qx-syN" secondAttribute="trailing" constant="10" id="n1W-Kw-E5Z"/>
+                    <constraint firstItem="eZ7-wO-efC" firstAttribute="top" secondItem="2aa-03-Mrs" secondAttribute="top" id="nEd-1n-JIH"/>
+                    <constraint firstItem="G1B-LO-a0s" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="oab-Is-zYW"/>
+                    <constraint firstItem="qWU-qx-syN" firstAttribute="leading" secondItem="qku-fU-7ue" secondAttribute="trailing" constant="10" id="tyY-o3-7nT"/>
+                    <constraint firstItem="qku-fU-7ue" firstAttribute="top" secondItem="eZ7-wO-efC" secondAttribute="top" id="v7n-TL-vJG"/>
+                    <constraint firstItem="qWU-qx-syN" firstAttribute="width" secondItem="eZ7-wO-efC" secondAttribute="width" id="xsc-Xs-O7P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outletCollection property="deleteBtnArray" destination="2aa-03-Mrs" id="Zte-m4-92R"/>
+                <outletCollection property="deleteBtnArray" destination="vqR-G9-Bcg" id="jJE-Kk-fyH"/>
+                <outletCollection property="deleteBtnArray" destination="BfO-tb-9cX" id="6ke-zR-mDi"/>
+                <outletCollection property="photoIVArray" destination="eZ7-wO-efC" id="OFQ-hk-wzZ"/>
+                <outletCollection property="photoIVArray" destination="qku-fU-7ue" id="UTI-AJ-hP7"/>
+                <outletCollection property="photoIVArray" destination="qWU-qx-syN" id="zrO-UP-adP"/>
+            </connections>
+            <point key="canvasLocation" x="64.5" y="186.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete_image.png" width="15" height="15"/>
+        <image name="上传照片" width="89" height="89"/>
+    </resources>
+</document>

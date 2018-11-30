@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MemberHomeListCell" rowHeight="107" id="KGk-i7-Jjw" customClass="MemberHomeListCell">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="359" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单号: 10011212121" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7P-Q0-8s8">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否接单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9or-LQ-Fhm">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.91764705882352937" green="0.33333333333333331" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eai-A1-tHF">
+                        <color key="backgroundColor" red="0.8901960784313725" green="0.92549019607843142" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="r9m-Io-xK6"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="市场 淡季活动" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3A-RQ-Dsx">
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="安坷 13866146666" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-JL-YdM">
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="member_right_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="xdG-fm-vUN"/>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="S7P-Q0-8s8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="3Ns-Ji-XxP"/>
+                    <constraint firstAttribute="trailing" secondItem="eai-A1-tHF" secondAttribute="trailing" id="DDc-lt-qGt"/>
+                    <constraint firstItem="eai-A1-tHF" firstAttribute="top" secondItem="9or-LQ-Fhm" secondAttribute="bottom" constant="10" id="KB9-VJ-nDb"/>
+                    <constraint firstAttribute="trailing" secondItem="xdG-fm-vUN" secondAttribute="trailing" constant="15" id="Lbw-AM-N4e"/>
+                    <constraint firstItem="S7P-Q0-8s8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="RTQ-jb-xKA"/>
+                    <constraint firstAttribute="trailing" secondItem="9or-LQ-Fhm" secondAttribute="trailing" constant="15" id="blO-ya-W7g"/>
+                    <constraint firstItem="eai-A1-tHF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dAk-eT-GuD"/>
+                    <constraint firstItem="xdG-fm-vUN" firstAttribute="top" secondItem="eai-A1-tHF" secondAttribute="bottom" constant="28" id="eNH-sg-zKw"/>
+                    <constraint firstItem="9or-LQ-Fhm" firstAttribute="centerY" secondItem="S7P-Q0-8s8" secondAttribute="centerY" id="hRn-Vq-E9w"/>
+                    <constraint firstItem="V3A-RQ-Dsx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="lHs-a7-5IH"/>
+                    <constraint firstItem="9or-LQ-Fhm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="S7P-Q0-8s8" secondAttribute="trailing" constant="20" id="nkz-4H-eaJ"/>
+                    <constraint firstItem="V3A-RQ-Dsx" firstAttribute="top" secondItem="eai-A1-tHF" secondAttribute="bottom" constant="15" id="op9-EH-vXe"/>
+                    <constraint firstItem="xCk-JL-YdM" firstAttribute="leading" secondItem="V3A-RQ-Dsx" secondAttribute="leading" id="qHK-Bp-8QW"/>
+                    <constraint firstItem="xCk-JL-YdM" firstAttribute="top" secondItem="V3A-RQ-Dsx" secondAttribute="bottom" constant="10" id="tnj-ia-il7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="orderName" destination="V3A-RQ-Dsx" id="ncd-YU-mug"/>
+                <outlet property="orderNum" destination="S7P-Q0-8s8" id="COx-cP-9bi"/>
+                <outlet property="orderPhone" destination="xCk-JL-YdM" id="WDH-bf-eYA"/>
+                <outlet property="orderState" destination="9or-LQ-Fhm" id="oaU-ph-Dck"/>
+            </connections>
+            <point key="canvasLocation" x="-199" y="-351"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="member_right_arrow" width="16" height="16"/>
+    </resources>
+</document>

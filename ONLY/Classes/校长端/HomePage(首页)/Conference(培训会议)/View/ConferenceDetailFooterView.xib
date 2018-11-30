@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ConferenceDetailFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="294"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHx-4s-hVP">
+                    <rect key="frame" x="0.0" y="0.0" width="348" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="M4W-VM-I1Q"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Q0R-di-83c">
+                    <rect key="frame" x="0.0" y="50" width="348" height="244"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="iLo-c2-nml"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="lll-ei-IDZ"/>
+                    </connections>
+                </tableView>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EnH-UP-RgS">
+                    <rect key="frame" x="0.0" y="50" width="348" height="244"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="JcS-Kk-iXk"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Q0R-di-83c" secondAttribute="bottom" id="0Lz-Ts-tNL"/>
+                <constraint firstItem="EnH-UP-RgS" firstAttribute="top" secondItem="QHx-4s-hVP" secondAttribute="bottom" id="Dmq-lP-XIC"/>
+                <constraint firstItem="Q0R-di-83c" firstAttribute="top" secondItem="QHx-4s-hVP" secondAttribute="bottom" id="JAR-Nu-Xok"/>
+                <constraint firstItem="QHx-4s-hVP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Qpf-19-69a"/>
+                <constraint firstItem="EnH-UP-RgS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TXx-zb-qOZ"/>
+                <constraint firstItem="QHx-4s-hVP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Txv-c7-RfX"/>
+                <constraint firstAttribute="bottom" secondItem="EnH-UP-RgS" secondAttribute="bottom" id="d8H-xu-RNr"/>
+                <constraint firstAttribute="trailing" secondItem="Q0R-di-83c" secondAttribute="trailing" id="l6h-2V-S6s"/>
+                <constraint firstItem="Q0R-di-83c" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rNw-a3-NCP"/>
+                <constraint firstAttribute="trailing" secondItem="EnH-UP-RgS" secondAttribute="trailing" id="y9f-JD-ZqJ"/>
+                <constraint firstAttribute="trailing" secondItem="QHx-4s-hVP" secondAttribute="trailing" id="ySU-7c-5cs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="segmentView" destination="QHx-4s-hVP" id="6hz-f3-s3s"/>
+                <outlet property="tableView" destination="Q0R-di-83c" id="Dpd-te-jol"/>
+                <outlet property="webView" destination="EnH-UP-RgS" id="WjG-Gz-SbZ"/>
+            </connections>
+            <point key="canvasLocation" x="22" y="241"/>
+        </view>
+    </objects>
+</document>

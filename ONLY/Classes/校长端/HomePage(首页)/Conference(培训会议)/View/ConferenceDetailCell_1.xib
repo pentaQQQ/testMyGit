@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ConferenceDetailCell_1" rowHeight="250" id="KGk-i7-Jjw" customClass="ConferenceDetailCell_1">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="250"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017第六次教育核心素养学术年会" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXT-cM-BGB">
+                        <rect key="frame" x="17" y="24" width="278" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="预计费用：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuZ-SS-lmO">
+                        <rect key="frame" x="17" y="61" width="62" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥800/人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pce-qy-XqD">
+                        <rect key="frame" x="86" y="58" width="72" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.91764705882352937" green="0.33333333333333331" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="报名时间：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Qm-s0-vry">
+                        <rect key="frame" x="17" y="88" width="62" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="报到时间：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGP-oa-H6N">
+                        <rect key="frame" x="17" y="115" width="62" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016.12.30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6Y-4C-H22">
+                        <rect key="frame" x="86" y="115" width="62" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="培训时间：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIg-24-Quh">
+                        <rect key="frame" x="17" y="142" width="62" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017.01.01-2017.02.20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTv-TK-TsD">
+                        <rect key="frame" x="86" y="142" width="126" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="培训地址：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnu-He-Nk4">
+                        <rect key="frame" x="17" y="169" width="62" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海希尔顿大酒店，华山路78号上海希尔顿大酒店，华山路78号" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSz-ok-9al">
+                        <rect key="frame" x="86" y="169" width="287" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016.10.01-2016.12.25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jxy-qQ-Vyw">
+                        <rect key="frame" x="86" y="88" width="127" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XXT-cM-BGB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="4kg-9y-tJM"/>
+                    <constraint firstItem="OuZ-SS-lmO" firstAttribute="leading" secondItem="XXT-cM-BGB" secondAttribute="leading" id="8gP-Dy-5jt"/>
+                    <constraint firstItem="KGP-oa-H6N" firstAttribute="top" secondItem="6Qm-s0-vry" secondAttribute="bottom" constant="12" id="CEJ-dt-8yY"/>
+                    <constraint firstItem="6Qm-s0-vry" firstAttribute="top" secondItem="OuZ-SS-lmO" secondAttribute="bottom" constant="12" id="CHs-iM-xwI"/>
+                    <constraint firstItem="j6Y-4C-H22" firstAttribute="centerY" secondItem="KGP-oa-H6N" secondAttribute="centerY" id="Dup-el-Hk2"/>
+                    <constraint firstItem="Jxy-qQ-Vyw" firstAttribute="centerY" secondItem="6Qm-s0-vry" secondAttribute="centerY" id="FLq-cS-6T5"/>
+                    <constraint firstAttribute="trailing" secondItem="kSz-ok-9al" secondAttribute="trailing" constant="17" id="HF2-on-OCL"/>
+                    <constraint firstItem="XXT-cM-BGB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="Hpx-Cf-ksA"/>
+                    <constraint firstItem="Jxy-qQ-Vyw" firstAttribute="leading" secondItem="pce-qy-XqD" secondAttribute="leading" id="KIw-ue-ybk"/>
+                    <constraint firstItem="KGP-oa-H6N" firstAttribute="leading" secondItem="XXT-cM-BGB" secondAttribute="leading" id="LJF-eJ-XfJ"/>
+                    <constraint firstItem="kSz-ok-9al" firstAttribute="top" secondItem="Jnu-He-Nk4" secondAttribute="top" id="NNF-c9-vkR"/>
+                    <constraint firstItem="j6Y-4C-H22" firstAttribute="leading" secondItem="pce-qy-XqD" secondAttribute="leading" id="Oj4-HX-r3K"/>
+                    <constraint firstItem="VTv-TK-TsD" firstAttribute="centerY" secondItem="LIg-24-Quh" secondAttribute="centerY" id="PKr-Fk-sWA"/>
+                    <constraint firstItem="OuZ-SS-lmO" firstAttribute="top" secondItem="XXT-cM-BGB" secondAttribute="bottom" constant="15" id="Rlw-lO-UDE"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="kSz-ok-9al" secondAttribute="bottom" constant="24" id="ZlH-Ry-WO6"/>
+                    <constraint firstItem="kSz-ok-9al" firstAttribute="leading" secondItem="pce-qy-XqD" secondAttribute="leading" id="aLC-rf-M7p"/>
+                    <constraint firstItem="6Qm-s0-vry" firstAttribute="leading" secondItem="XXT-cM-BGB" secondAttribute="leading" id="fsE-Mg-x7c"/>
+                    <constraint firstItem="Jnu-He-Nk4" firstAttribute="leading" secondItem="XXT-cM-BGB" secondAttribute="leading" id="mZO-V2-75a"/>
+                    <constraint firstItem="pce-qy-XqD" firstAttribute="centerY" secondItem="OuZ-SS-lmO" secondAttribute="centerY" id="nkY-eS-l3f"/>
+                    <constraint firstItem="LIg-24-Quh" firstAttribute="top" secondItem="KGP-oa-H6N" secondAttribute="bottom" constant="12" id="nxE-dy-KLm"/>
+                    <constraint firstItem="LIg-24-Quh" firstAttribute="leading" secondItem="XXT-cM-BGB" secondAttribute="leading" id="pX2-oX-UmC"/>
+                    <constraint firstItem="VTv-TK-TsD" firstAttribute="leading" secondItem="pce-qy-XqD" secondAttribute="leading" id="sVI-y6-usD"/>
+                    <constraint firstItem="Jnu-He-Nk4" firstAttribute="top" secondItem="LIg-24-Quh" secondAttribute="bottom" constant="12" id="t7V-Rr-wad"/>
+                    <constraint firstItem="pce-qy-XqD" firstAttribute="leading" secondItem="OuZ-SS-lmO" secondAttribute="trailing" constant="7" id="yxs-dB-HmM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="kSz-ok-9al" id="MBs-Qz-DSC"/>
+                <outlet property="checkInTimeLabel" destination="j6Y-4C-H22" id="yov-vW-JFl"/>
+                <outlet property="enrollTimeLabel" destination="Jxy-qQ-Vyw" id="Z2h-hZ-UVC"/>
+                <outlet property="priceLabel" destination="pce-qy-XqD" id="RY7-do-2Qo"/>
+                <outlet property="titleLabel" destination="XXT-cM-BGB" id="TWz-LP-5pY"/>
+                <outlet property="trainingTimeLabel" destination="VTv-TK-TsD" id="Jed-iT-Xqn"/>
+            </connections>
+            <point key="canvasLocation" x="69" y="208"/>
+        </tableViewCell>
+    </objects>
+</document>

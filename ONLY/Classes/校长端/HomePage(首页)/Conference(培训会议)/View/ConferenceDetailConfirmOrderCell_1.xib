@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ConferenceDetailConfirmOrderCell_1" rowHeight="110" id="KGk-i7-Jjw" customClass="ConferenceDetailConfirmOrderCell_1">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="109.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017教师职称资格证冬季培训班" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNN-Zs-6LY">
+                        <rect key="frame" x="17" y="24" width="231" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="会务费：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyU-yJ-EJD" userLabel="会务费">
+                        <rect key="frame" x="17" y="55.5" width="49.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="会务费" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTs-mb-TzI">
+                        <rect key="frame" x="76.5" y="55" width="37" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.91764705879999997" green="0.33333333329999998" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZTs-mb-TzI" firstAttribute="centerY" secondItem="hyU-yJ-EJD" secondAttribute="centerY" id="G9z-2r-snn"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hyU-yJ-EJD" secondAttribute="bottom" constant="24" id="JU3-Wk-opW"/>
+                    <constraint firstItem="hyU-yJ-EJD" firstAttribute="leading" secondItem="LNN-Zs-6LY" secondAttribute="leading" id="WgX-9W-0JA"/>
+                    <constraint firstItem="LNN-Zs-6LY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="Zif-vs-1ld"/>
+                    <constraint firstItem="ZTs-mb-TzI" firstAttribute="leading" secondItem="hyU-yJ-EJD" secondAttribute="trailing" constant="10" id="mH7-My-FSa"/>
+                    <constraint firstItem="LNN-Zs-6LY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="tG1-5t-t8t"/>
+                    <constraint firstItem="hyU-yJ-EJD" firstAttribute="top" secondItem="LNN-Zs-6LY" secondAttribute="bottom" constant="12" id="ulF-Ox-oA7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="priceLabel" destination="ZTs-mb-TzI" id="fEZ-Qi-hil"/>
+                <outlet property="titleLabel" destination="LNN-Zs-6LY" id="fLc-ce-dHq"/>
+            </connections>
+            <point key="canvasLocation" x="44.5" y="109"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="IdeaDetailHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="金点子_comment" translatesAutoresizingMaskIntoConstraints="NO" id="ZCl-c7-KTu">
+                    <rect key="frame" x="20" y="17" width="22" height="22"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="评论" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fP5-Y3-iFY">
+                    <rect key="frame" x="54" y="18.5" width="33" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZCl-c7-KTu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="9e7-3x-pHk"/>
+                <constraint firstItem="fP5-Y3-iFY" firstAttribute="centerY" secondItem="ZCl-c7-KTu" secondAttribute="centerY" id="e5b-UX-TW3"/>
+                <constraint firstItem="ZCl-c7-KTu" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xsY-cc-u3d"/>
+                <constraint firstItem="fP5-Y3-iFY" firstAttribute="leading" secondItem="ZCl-c7-KTu" secondAttribute="trailing" constant="12" id="zQc-8k-ZuQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="titleLabel" destination="fP5-Y3-iFY" id="BrT-Y2-AfX"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="185"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="金点子_comment" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CrowdFundDetailCell_1" rowHeight="206" id="KGk-i7-Jjw" customClass="CrowdFundDetailCell_1">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="206"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="206"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="庆祝昂立微点平台成立纪念版台历" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6s2-aY-h1u">
+                        <rect key="frame" x="16" y="24" width="275.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="市场参考价：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGB-Kz-yCr">
+                        <rect key="frame" x="16" y="60" width="74" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥60/件" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6It-dZ-VQT">
+                        <rect key="frame" x="96" y="56.5" width="64.5" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.91764705882352937" green="0.33333333333333331" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="制作工艺为意大利佛一个笔记本品牌，现被全球人们喜爱，定制图案可自选，您对此类产品有意向，希望众筹次产品，请点赞。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ac-WU-LIv">
+                        <rect key="frame" x="16" y="119" width="352" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="起订数量:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5i-el-2Q7">
+                        <rect key="frame" x="16" y="89.5" width="53" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10件/人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVU-Xr-wDp">
+                        <rect key="frame" x="75" y="90" width="42" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6It-dZ-VQT" firstAttribute="leading" secondItem="BGB-Kz-yCr" secondAttribute="trailing" constant="6" id="CbM-CA-vNY"/>
+                    <constraint firstItem="hVU-Xr-wDp" firstAttribute="leading" secondItem="O5i-el-2Q7" secondAttribute="trailing" constant="6" id="Dwk-cO-JZv"/>
+                    <constraint firstAttribute="trailing" secondItem="9ac-WU-LIv" secondAttribute="trailing" constant="17" id="TN9-9u-ARG"/>
+                    <constraint firstItem="BGB-Kz-yCr" firstAttribute="leading" secondItem="6s2-aY-h1u" secondAttribute="leading" id="VZm-yl-MyO"/>
+                    <constraint firstItem="6s2-aY-h1u" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="WKx-Jz-ifq"/>
+                    <constraint firstItem="9ac-WU-LIv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="BGB-Kz-yCr" secondAttribute="bottom" constant="15" id="eMh-DH-EVu"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="9ac-WU-LIv" secondAttribute="bottom" constant="24" id="gVh-WE-BzC"/>
+                    <constraint firstItem="6s2-aY-h1u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="iAU-9R-W86"/>
+                    <constraint firstItem="hVU-Xr-wDp" firstAttribute="centerY" secondItem="O5i-el-2Q7" secondAttribute="centerY" id="o8v-Jr-YWO"/>
+                    <constraint firstItem="9ac-WU-LIv" firstAttribute="top" secondItem="O5i-el-2Q7" secondAttribute="bottom" constant="15" id="oq6-dh-pRO"/>
+                    <constraint firstItem="6It-dZ-VQT" firstAttribute="centerY" secondItem="BGB-Kz-yCr" secondAttribute="centerY" id="pa8-mU-L0z"/>
+                    <constraint firstItem="O5i-el-2Q7" firstAttribute="top" secondItem="BGB-Kz-yCr" secondAttribute="bottom" constant="15" id="rkI-dR-Bdh"/>
+                    <constraint firstItem="9ac-WU-LIv" firstAttribute="leading" secondItem="6s2-aY-h1u" secondAttribute="leading" id="rz8-J9-O1V"/>
+                    <constraint firstItem="O5i-el-2Q7" firstAttribute="leading" secondItem="BGB-Kz-yCr" secondAttribute="leading" id="sbo-L1-1C9"/>
+                    <constraint firstItem="BGB-Kz-yCr" firstAttribute="top" secondItem="6s2-aY-h1u" secondAttribute="bottom" constant="15" id="zpF-9j-dgQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="9ac-WU-LIv" id="Bwp-4m-rBf"/>
+                <outlet property="priceLabel" destination="6It-dZ-VQT" id="OkT-Wa-mKp"/>
+                <outlet property="priceTitleLabel" destination="BGB-Kz-yCr" id="rKH-ER-iT1"/>
+                <outlet property="startCountLabel" destination="hVU-Xr-wDp" id="XLx-gW-uXE"/>
+                <outlet property="startCountTitleLabel" destination="O5i-el-2Q7" id="VeW-tl-LB4"/>
+                <outlet property="titleLabel" destination="6s2-aY-h1u" id="Lh3-7U-xhf"/>
+            </connections>
+            <point key="canvasLocation" x="45.5" y="127"/>
+        </tableViewCell>
+    </objects>
+</document>

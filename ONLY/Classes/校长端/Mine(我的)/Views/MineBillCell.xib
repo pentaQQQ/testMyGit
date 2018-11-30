@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="MineBillCell">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="344" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发票信息" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FV-KE-YKL">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="Gvi-MI-fOC"/>
+                            <constraint firstAttribute="width" constant="58" id="enC-hh-fLH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="纸质发票" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoa-rq-cDW">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="1nA-8d-Kgc"/>
+                            <constraint firstAttribute="width" constant="58" id="gbW-VU-NnV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="抬头" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnw-y6-csq">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="Af6-7n-6nM"/>
+                            <constraint firstAttribute="height" constant="12" id="Hga-HU-kOz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="个人" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9k-I8-kKf">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="LV4-jM-4OP"/>
+                            <constraint firstAttribute="width" constant="42" id="a9q-yi-EBz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Xoa-rq-cDW" secondAttribute="trailing" constant="17" id="7NG-zK-u7h"/>
+                    <constraint firstAttribute="trailing" secondItem="m9k-I8-kKf" secondAttribute="trailing" constant="17" id="HnD-0z-3Tp"/>
+                    <constraint firstItem="Jnw-y6-csq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="KPc-V8-qDD"/>
+                    <constraint firstItem="8FV-KE-YKL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="Ka4-la-5Do"/>
+                    <constraint firstItem="m9k-I8-kKf" firstAttribute="top" secondItem="Xoa-rq-cDW" secondAttribute="bottom" constant="11" id="TwY-iv-hfh"/>
+                    <constraint firstItem="8FV-KE-YKL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="eTc-Cr-MtB"/>
+                    <constraint firstItem="Xoa-rq-cDW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="fQB-UU-ZN3"/>
+                    <constraint firstItem="Jnw-y6-csq" firstAttribute="top" secondItem="8FV-KE-YKL" secondAttribute="bottom" constant="11" id="nfM-8B-8KB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLab" destination="m9k-I8-kKf" id="mnb-z7-6gW"/>
+                <outlet property="titleLab" destination="Xoa-rq-cDW" id="aix-aw-7ZR"/>
+            </connections>
+            <point key="canvasLocation" x="-358" y="-15"/>
+        </tableViewCell>
+    </objects>
+</document>

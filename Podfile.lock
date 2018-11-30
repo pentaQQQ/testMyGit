@@ -1,0 +1,97 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CLRefresh (1.1)
+  - CTAssetsPickerController (3.3.1):
+    - PureLayout (~> 3.0.0)
+  - CYLTabBarController (1.10.0)
+  - DCAlipay_iOS (1.0.1)
+  - FDFullscreenPopGesture (1.1)
+  - FLAnimation (0.0.5):
+    - pop
+  - GTMBase64 (1.0.0)
+  - GVUserDefaults (1.0.2)
+  - HYBMasonryAutoCellHeight (2.0.1):
+    - Masonry (~> 0.6)
+  - JKCategories (1.5)
+  - Masonry (0.6.4)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - pop (1.0.9)
+  - PureLayout (3.0.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.1.2)
+  - SXPopMenu (1.3.0)
+  - TPKeyboardAvoiding (1.3.1)
+  - TZImagePickerController (1.7.9)
+  - WechatOpenSDK (1.7.7)
+  - WXWaveView (1.0.1)
+  - XRCarouselView (2.5.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CLRefresh
+  - CTAssetsPickerController (~> 3.3.0)
+  - CYLTabBarController
+  - DCAlipay_iOS
+  - FDFullscreenPopGesture
+  - FLAnimation
+  - GTMBase64
+  - GVUserDefaults
+  - HYBMasonryAutoCellHeight
+  - JKCategories
+  - MJExtension
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+  - SXPopMenu
+  - TPKeyboardAvoiding
+  - TZImagePickerController
+  - WechatOpenSDK
+  - WXWaveView (~> 1.0.0)
+  - XRCarouselView
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CLRefresh: ae13cdcda5ce7786d33390c865ed77a1abecaed1
+  CTAssetsPickerController: b1d1d50ab87cf6b8b13531de5f4530482e7e53ed
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
+  DCAlipay_iOS: 460e74acaa0fa8252c54132572693a6b9061262c
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FLAnimation: 802e31c17b697b53bc7fdc90d4ea39940c5851b6
+  GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
+  GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
+  HYBMasonryAutoCellHeight: 9296583777080d32ba6257f55e52b7334dd481fc
+  JKCategories: 863f4c7ed2d521ee6bf72ceea97948da23bb5af4
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SXPopMenu: af8cd3da76cd5da9d56a763cbd9278a368e8b9d4
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
+  WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
+  WXWaveView: f8424284812536a3842bc5dd9afb943e53e911a8
+  XRCarouselView: 52529f924d26ee4787f9bd958150800b73e60922
+
+PODFILE CHECKSUM: 90bd7e6ad389adcb1e0e32bce338dc71acaf33c2
+
+COCOAPODS: 1.1.1

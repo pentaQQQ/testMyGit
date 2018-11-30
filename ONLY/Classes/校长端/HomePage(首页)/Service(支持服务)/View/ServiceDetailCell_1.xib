@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ServiceDetailCell_1" rowHeight="167" id="KGk-i7-Jjw" customClass="ServiceDetailCell_1">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="167"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="166"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新春圣诞跨年年会一体策划服务" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzF-dB-yP8">
+                        <rect key="frame" x="16" y="26" width="229" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDe-ui-f5f">
+                        <rect key="frame" x="17" y="58" width="333" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gDe-ui-f5f" secondAttribute="trailing" constant="17" id="0HU-3M-sM8"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gDe-ui-f5f" secondAttribute="bottom" constant="15" id="1tR-N4-4gR"/>
+                    <constraint firstItem="gDe-ui-f5f" firstAttribute="top" secondItem="zzF-dB-yP8" secondAttribute="bottom" constant="12" id="59I-qW-rGX"/>
+                    <constraint firstItem="gDe-ui-f5f" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="aba-Pu-U14"/>
+                    <constraint firstItem="zzF-dB-yP8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="26" id="g0o-kN-xXz"/>
+                    <constraint firstItem="zzF-dB-yP8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="rFm-Y4-LQg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="gDe-ui-f5f" id="HUc-bZ-fbV"/>
+                <outlet property="titleLabel" destination="zzF-dB-yP8" id="F1P-BL-IF5"/>
+            </connections>
+            <point key="canvasLocation" x="57.5" y="154.5"/>
+        </tableViewCell>
+    </objects>
+</document>
